@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b> KENN PORTFOLIO </b></h1>
+    <h6>Welcome to the LIFE of <span class="w3-tag">Kenn's world</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="shes.jpg" alt="BLOG LIFE" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">KENN's</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>BLOG LIFE</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('Call Me').style.display='block'">CALL ME ...</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>SUCCESS</h3>
+          <h5>DEFENDED, <span class="w3-opacity">April 2, 2025</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="defended.jpg" alt="Success" style="width:100%" class="w3-padding-16">
+          <p><strong>THANK YOU!</strong> To be honest, I never imagined I’d make it this far. There were so many points along the way where I thought, “This is it, I’m not going to make it to the defense.” But somehow, through a lot of late nights, doubts, and prayer, I’ve made it. And for that, I’m incredibly thankful.
+
+First, to my amazing thesis/Capstone groupmates: Cyrus Duane Chua, Kiven Clefford Esmeralda, and Ma. Nikka Joy Placeros. Thank you for being with me every step of the way. We’ve been through the highs, the lows, and everything in between. I’m so grateful we were in this together.
+
+To our thesis adviser, Mr. Warner Guyano. Thank you for your patience, encouragement, and guidance. You helped shape this work into what it is, and we couldn’t have done it without you. </p>
+          <p>A huge thank you to our panel evaluators: Engr. John Pearl Manungas, Dr. Nikko Ederio, and Sr. Maria Rosanne Mallillin. Thank you for taking the time to evaluate our work and help us grow through your feedback.
+
+And finally, to my ever-supportive parents. Thank you for believing in me even when I was on the verge of giving up. Your love and encouragement gave me strength to keep going.
+
+This journey has been anything but easy. But looking back, I’m just incredibly thankful. Whether this ends in success or another lesson learned, I’m proud to have made it here.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Nice </b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="Arnold.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Engr. Arnold Magalona <span class="w3-opacity w3-medium">April 15, 2015, 10:32 AM</span></h4>
+                <p>Congratulation !! Gepapasar ra mo kay nakapapictural man kamo advance sayang ang picture. Maong gihangyo rakan</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>FOR GRADUATION</h3>
+          <h5> SPUS New Site, <span class="w3-opacity">March 31, 2025</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="Whole.jpg" alt="Sheeeeeesh" style="width:100%" class="w3-padding-16">
+          <p><strong>This is it!</strong> “They said take a picture to remember the journey. All I remember is coffee, deadlines, and somehow surviving it all. But hey—we did it. Here’s to the chaos and the growth.”</p>
+          <p>As I sat down for my yearbook photo, I couldn’t help but feel a wave of mixed emotions. This is the photo that’s supposed to represent the end of a chapter—the celebration of graduation, of everything finally coming together. But truthfully, it still doesn’t feel like the end. My thesis defense is still ahead, and there’s this lingering uncertainty about whether I’ll really make it across the finish line.<br>
+
+It’s a strange feeling, smiling for a picture that’s meant to mark something you haven’t fully achieved yet. There’s pride, of course—pride in how far I’ve come, in the long nights, the quiet struggles, the moments when giving up felt easier than pushing forward. But there’s also fear. The kind that whispers, “What if it’s not enough?”<br>
+
+Still, I showed up. I sat there, smiled, and let that camera capture more than just a face. It captured resilience. It captured the version of me that, despite all the doubts, chose to believe—even just a little—that maybe, just maybe, I will make it.<br>
+
+So no, I’m not done yet. But I’m here. I’ve come this far. And that alone is something worth remembering.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Nice </b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="Janet.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Janet Ugay Angob <span class="w3-opacity w3-medium">April 15, 2025, 10:52 AM</span></h4>
+                <p> Congratulations !!</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Jovilson.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jovilson Villegas Butaya <span class="w3-opacity w3-medium">April 25, 2025, 9:12 AM</span></h4>
+                <p>Pa Letson kamo ... maghulat kami</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ICT STAFF</h3>
+          <h5>ICT Ofiice, <span class="w3-opacity">February 27, 2025</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="Staff.jpg" alt="Happy Birthday" style="width:100%" class="w3-padding-16">
+          <p><strong>OWO!</strong> THANK YOU SO MUCH ...</p>
+          <p>As my OJT journey comes to an end after 2 months and 20 days, I just want to take a moment to express my sincerest gratitude to the amazing ICT staff who became more than just mentors—they became part of my learning story.<br>
+
+To Engr. John Pearl Manungas, Engr. Arnold, Ma’am Janet, Sir Jovilson, Sir Taghoy, Sir Dexter, Sir Rayman, and Sir Brendan—thank you for welcoming me into your team and treating me not just as a trainee, but as someone with potential. Your guidance, patience, and support have taught me lessons that go far beyond technical skills.<br>
+
+Every task, conversation, and shared laughter made this experience meaningful. I’ve learned not just how systems work, but how a good team functions—with professionalism, collaboration, and a little bit of fun in between.<br>
+
+This OJT chapter has been a huge part of my growth, and I will always be grateful for the time, effort, and trust you all extended to me. I may be closing this chapter soon, but the lessons and memories will stay with me as I move forward.<br>
+
+Thank you for everything, and I hope our paths cross again someday</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Nice</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Xavy.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Xavy Cyrene Alavazo <span class="w3-opacity w3-medium">April 15, 2025, 8:00 AM</span></h4>
+                <p>Thank you sir.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Chua.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Cyrus Duane Chua <span class="w3-opacity w3-medium">April 15, 2025, 10:32 AM</span></h4>
+                <p>Sir/Ma'am, Salamat sa injo tudlo even tho bastos.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="Kiven.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Kiven Clefford Esmeralda <span class="w3-opacity w3-medium">April 15, 2025, 9:12 AM</span></h4>
+                <p>Salamat sir/ma'am</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="Hell.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>My name is KENN ASHLY S. DANGATE</h4>
+          <p>I’m Kenn Ashly Dangate, a work-in-progress and a quiet fighter. I may not be the loudest in the room, but I carry my dreams with quiet determination and a heart that refuses to give up—no matter how tough the road gets.<br>
+
+This journey has been full of self-doubt, unexpected turns, and moments where I questioned if I was really cut out for this. But every step—no matter how slow or uncertain—was still a step forward. I’m not perfect, and I’m still figuring things out, but I’m learning to trust the process and believe in who I’m becoming.<br>
+
+I’m someone who values growth, gratitude, and the people who walk with me on this path. I’ve learned that success isn’t about getting everything right—sometimes it’s just about showing up, learning, and trying again tomorrow.<br>
+
+This is me—<strong>still learning, still dreaming,</strong> and <strong>still standing</strong>.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>OJT REMARKABLE DAYS</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="one.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">PRINTER</span>
+            <br>
+            <span>Figuring what's the cause of the problem</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="two.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">ID's</span>
+            <br>
+            <span>Tasked to entertain the Graduates student and making their ID</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="three.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">EVENT</span>
+            <br>
+            <span>Love that Day. First time in control room</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="four.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Birthday</span>
+            <br>
+            <span>A printer not working ...</span>
+          </li>
+	    <li class="w3-padding-16">
+            <img src="five.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">PAPER</span>
+            <br>
+            <span>500 papers to fold</span>
+          </li>
+            <li class="w3-padding-16">
+            <img src="six.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">NEW</span>
+            <br>
+            <span>NEW Monitor, Avr, Mouse, and Keyboard for Boutique office</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Capstone Project</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle"><strong>TITLED</strong> <br> NINJAMATH: A Gamification learning PLatform for Basic Arithmetic Mathematics for Elementary Students</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4> Favorite Aninme</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">BSD</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Eminemce Shadow</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sailor Moon</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dragon Ball</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Attack on Titan</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Demon Slayer</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Naruto: Shippuden</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Death Note</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pokemon</span>
+           
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>OJT PICTURE</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="seven.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="eight.jpg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="nine.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="eleven.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-github w3-hover-opacity"></i>
+          <i class="fa fa-gmail w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-flutterflow w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>How to Approach</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p><strong>GMAIL:</strong> kennashly@gmail.com<br>
+<strong>GLOBE:</strong> +639952142969<br>
+<strong>SMART:</strong> +639385920156</p>
+         
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">IWantToEmailYou</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">CONTACT ME</h2>
+      <p>Your E-MAIL</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+<p>
+<input class="w3-input w3-border" type="text" placeholder="Enter e mail"> </p>
+
+</footer>
+
+  
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
